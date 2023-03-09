@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;700&family=Roboto&display=swap");
+
+* {
+  font-family: "Roboto";
+  margin: 0px;
+  padding: 0px;
+}
+
+.bloqueInternoImagen2 {
+  flex-grow: 0.6;
+  position: relative;
+  top: 20px;
+}
+
+.bloqueImagen1,
+.bloqueImagen2 {
+  margin: 2px;
+}
+
+.bloqueImagen1 {
+  background-image: url(../img/delivery.jpg);
+}
+
+.bloqueImagen1,
+.bloqueImagen2 {
+  border-radius: 5px;
+  height: 350px;
+  width: 490px;
+}
+
+.bloqueImagen2 {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  width: 490px;
+}
+body {
+  background-color: #e5e5e5;
+}
+.contArbolPizza {
+  display: flex;
+  justify-content: center;
+}
+
+.contenedorPrincipal {
+  display: flex;
+  justify-content: center;
+  margin: 30px 20px;
+}
+
+footer {
+  background-color: #222222;
+  height: 150px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+}
+footer ol li {
+  color: white;
+}
+
+.footerBloqueIzquierdo {
+  align-items: space-around;
+  display: flex;
+  height: 150px;
+  margin-left: 20px;
+}
+
+.footerBloqueDerecho {
+  display: flex;
+  justify-content: flex-end;
+}
+header {
+  background-color: #222222;
+  display: flex;
+  height: 100px;
+  justify-content: space-between;
+}
+h2 {
+  color: red;
+  font-size: 24px;
+  text-align: center;
+}
+.imagenArbolPizza {
+  background-image: url(../img/PizzaFalling.png);
+  background-repeat: no-repeat;
+  height: 129px;
+  width: 92px;
+}
+.imagenIcono {
+  background-image: url(../img/VectorPizza.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 80px;
+  width: 92px;
+}
+.menu-nav {
+  align-content: center;
+  color: #f3f3f3;
+  height: 100px;
+  justify-content: space-around;
+  width: 400px;
+}
+
+.logoYTitulo,
+.menu-nav {
+  align-items: center;
+  display: flex;
+}
+
+.logoFooter {
+  align-items: center;
+  display: flex;
+  height: 150px;
+  width: 250px;
+}
+
+.listaPizzas {
+  align-content: space-around;
+  display: flex;
+  flex-grow: 0.5;
+  font-size: 16px;
+  font-weight: bold;
+  justify-content: center;
+  position: relative;
+}
+.listaPizzasSub {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.listaFooter {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.tituloFooter {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+.tituloBloqueImagen1 {
+  color: white;
+  font-weight: bold;
+  position: relative;
+  top: 20px;
+  width: 400px;
+}
+.tituloInterno {
+  color: #fc200c;
+  font-size: 24;
+}
+
+.tituloFooter {
+  height: 20px;
+  position: relative;
+}
+
+.tituloPizza {
+  color: #39b24a;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.tituloFront {
+  color: #fc200c;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.tituloAmper {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+.subBloqueInternoImagen2 {
+  display: flex;
+  height: 150px;
+}
